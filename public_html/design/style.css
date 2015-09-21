@@ -1,0 +1,1445 @@
+ /* This is the main css for escortcentral */
+/*@font-face {
+    font-family: "euron";
+    src: url(euron.ttf) format("truetype");
+}*/
+/*html {
+background: url(girl2.jpg);
+background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+*/
+body
+{
+	/*margin: 0;*/
+    /*font-family: Verdana, Tahoma, 'Helvetica';*/
+    /*font-family: 'Yanone Kaffeesatz', sans-serif;*/
+    /*font-family: 'Open Sans', sans-serif;*/
+    font-family: 'sofia_prolight';
+	color: #fff;
+	width: 100%;
+	margin: auto;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.liveChat {
+	display: flex;
+    justify-content: center;
+    background-color: #b30000;
+    color: #fff;
+    font-size: 2em;
+    width: 100%;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 1em;
+}
+.liveChat:hover {
+	background-color: #900000;
+	color: #fff;
+	text-decoration: none;
+}
+#mainH1 {
+	color: #000;
+}
+#mainDesc
+{
+	color: #727272;
+}
+
+#SEOText
+{
+	max-width: 625px;
+	color: #727272;
+}
+
+#mainDesc, #SEOText p
+{
+	font-size: 14pt;
+}
+
+a
+{
+	color: rgb(133,133,133);
+	text-decoration: none;
+}
+a:hover
+{
+	text-decoration: underline;
+}
+
+/*#border
+{
+	padding: 30px;
+	background-color: rgb(0, 0, 0);
+	margin: 0;
+	border: 1px solid #0000ff;
+}*/
+
+#wws
+{
+	height: 250px;
+	width: 100%;
+	background-image: url('background.png');
+	background-position: 0;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}
+
+.profileRight
+{
+	text-align: right; 
+	font-size: 12px; 
+	width: 400px;
+}
+
+.profileTable
+{
+	width: 100%;
+	border-collapse: collapse;
+}
+.profileTable td
+{
+	vertical-align: top;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-top: 1px solid #AAA;
+}
+.profileTable input, .profileTable select, .profileTable textarea
+{
+	margin-top: -5px;
+	margin-bottom: 8px;
+}
+
+#myProfileInfoTable .inputs
+{
+	padding-left: 110px;
+	padding-right: 5px; 
+	text-align: right;
+}
+
+#profileParts span
+{
+	cursor: pointer;
+	color: rgb(65, 144, 255);
+}
+
+#profileParts
+{
+	position: relative;
+}
+
+#accountButton
+{
+	font-size: 14px; 
+	font-weight: 400; 
+	/*font-family: "euron";*/
+	cursor: pointer; 
+	color: #fff; 
+/*	padding: 7px; */
+	margin-top: 4px;
+	margin-bottom: 4px;
+	border: none; 
+	border-radius: 2px; 
+
+
+}
+#searchButton
+{
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+/*    padding: 1em;*/
+    font-family: sans-serif;
+}
+#accountButton
+{
+	width: 170px; 
+}
+
+#featuredImages
+{
+	
+	display: flex;
+    flex-direction: column;
+    position: relative;
+	overflow: auto;
+}
+
+#bottomBar
+{
+	width: 100%; 
+	text-align: center; 
+	color: rgb(133,133,133);
+	background-color: #333; 
+	height: auto; 
+	font-size: 12px;
+	text-transform: uppercase;
+	background-image: url('logo.png');
+	background-repeat: no-repeat;
+	background-position: 15px center;
+	background-size: contain;
+	padding: 20px 0;
+}
+
+.fade
+{
+	background-color: rgba(0, 0, 0, 0);
+	color: rgba(255, 255, 255, 0);
+	height: 150px;
+	width: 150px;
+	padding: 0;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.featuredEscort, .featuredEscort-1
+{
+	cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.featuredEscort {
+	margin-bottom: 3em;
+}
+
+
+.featuredEscortImage, .featuredEscortImage-1
+{
+	width: 200px; 
+	height: 200px; 
+	background-image: url('no_image.png');
+	background-size: 100%; 
+	background-repeat: no-repeat;
+	background-color: #999999;
+	border-radius: 5px; 
+}
+.featuredEscort-1 .featuredEscortImage-1 div h3{
+	position: relative;
+	top: -20em;
+}
+.featuredEscort-1 .featuredEscortImage-1 div {
+	height: 100%;
+}
+.featuredEscort-1 .featuredEscortImage-1 div:hover  {
+	display: flex; flex-direction: column; justify-content: center; height: 100%; color: #fff; background-color: rgba(0,0,0,.5);
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.featuredEscort-1 .featuredEscortImage-1 div:hover h3 {
+	position: relative;
+	top:0;
+}
+
+
+#profileInfoTable div 
+{
+	vertical-align: top;
+	color: #333;
+}
+#profileInfoTable .right
+{
+	padding-left: 50px;
+	color: #333;
+}
+
+#workTable .right
+{
+	padding-left: 50px;
+	color: #333;
+}
+#workTable div
+{
+	vertical-align: top;
+	color: #333;
+}
+
+#profileInfoTable {
+    font-size: 12px;
+    color: #333;
+}
+
+.noImageOnProfile
+{
+	width: 300px; 
+	height: 300px; 
+	background-image: url('no_image.png');
+	background-size: 100%; 
+	background-repeat: no-repeat;
+	background-color: #cccccc;
+/*	margin-right: 15px;*/
+}
+
+.noImageOnSearch
+{
+	background-image: url('no_image.png');
+	background-size: 100%; 
+	background-repeat: no-repeat;
+	background-color: #cccccc;
+	/*margin-right: 15px;*/
+	height: 150px;
+	width: 150px;
+	border-radius: 5px;
+	float: left;
+}
+
+#popupDiv
+{
+	height: 100%; 
+	width: 100%; 
+	position: fixed; 
+	margin: 0; 
+	top: 0; 
+	overflow: scroll;
+	left: 0; 
+	color: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.5); 
+	z-index: 4000;
+	display: none;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#stuffInPopup, #waitingForPayment
+{
+	padding: 10px;
+}
+
+#loginTable td
+{
+	padding: 5px;
+}
+#loginTable .textFields
+{
+	height: 20px;
+	width: 250px;
+	color: grey;
+}
+#loginTable
+{
+	margin: 20px auto;	
+}
+
+#closePopupWindow
+{
+	max-width: 100%;
+	position: absolute;
+	top: 8px;
+	right: 28px;
+	cursor: pointer;
+}
+
+#popupWindowTitle
+{
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+}
+
+#popupWindowContent
+{
+	margin: auto;
+	position: relative;
+}
+
+#popupWindowTopBar
+{
+	width: 100%;
+	padding: 10px;
+	position: relative;
+}
+
+#popupWindow
+{
+	background-color: #ffffff; 
+	width: 500px; 
+	margin: auto; 
+	top: 100px;
+	margin-top: 100px;
+	border-radius: 10px;
+	margin-bottom: 60px;
+}
+
+#featuredEscorts
+{
+	margin: 0; 
+	border: none;
+	padding: 0;
+	color: #fff; 
+}
+
+#escortProfile
+{
+	padding: 30px; 
+	padding-top: 10px;
+}
+
+#escortProfilePage
+{
+	color: #333;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 1em;
+    display: flex;
+}
+
+#searchTable
+{
+	margin-left: 5px;
+}
+#searchTable input
+{
+	width: 200px;
+	height: 30px; 
+	border-radius: 5px; 
+	border: 1px solid grey; 
+	color: #999999; 
+	padding: 5px; 
+	font-size: 16px;
+}
+#searchTable select
+{
+	width: 200px; 
+	height: 30px; 
+	margin-top: 4px;
+}
+#searchTable td
+{
+	padding-right: 30px; 
+	font-weight: bold;
+}
+
+.bottomOfSearchTable
+{
+	padding-top: 40px; 
+	font-size: 14px; 
+}
+
+.topOfSearchTable
+{
+	padding-top: 0; 
+	font-size: 12px; 
+}
+
+#pricesTable
+{
+	width: 875px;
+	border-collapse: collapse;
+}
+#pricesTable td
+{
+	vertical-align: middle;
+	text-align: center;
+	height: 30px;
+}
+#pricesTable .leftColumn
+{
+	text-align: left;
+}
+#pricesTable #topRow
+{
+	height: 50px;
+}
+
+#gold
+{
+	border-radius: 5px 0 0 0;
+	background: #dcc860; /* Old browsers */
+	background: -moz-linear-gradient(top,  #dcc860 0%, #ceb249 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dcc860), color-stop(100%,#ceb249)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #dcc860 0%,#ceb249 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #dcc860 0%,#ceb249 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #dcc860 0%,#ceb249 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #dcc860 0%,#ceb249 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dcc860', endColorstr='#ceb249',GradientType=0 ); /* IE6-9 */
+}
+
+#platinum
+{
+	background: #c9cccf; /* Old browsers */
+	background: -moz-linear-gradient(top,  #c9cccf 0%, #b8bbc0 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c9cccf), color-stop(100%,#b8bbc0)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #c9cccf 0%,#b8bbc0 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #c9cccf 0%,#b8bbc0 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #c9cccf 0%,#b8bbc0 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #c9cccf 0%,#b8bbc0 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9cccf', endColorstr='#b8bbc0',GradientType=0 ); /* IE6-9 */
+}
+
+#agency
+{
+	border-radius: 0 5px 0 0;
+	background: #d6663d; /* Old browsers */
+	background: -moz-linear-gradient(top,  #d6663d 0%, #cc4b2d 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d6663d), color-stop(100%,#cc4b2d)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #d6663d 0%,#cc4b2d 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #d6663d 0%,#cc4b2d 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #d6663d 0%,#cc4b2d 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #d6663d 0%,#cc4b2d 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6663d', endColorstr='#cc4b2d',GradientType=0 ); /* IE6-9 */
+}
+
+.gold
+{
+	background-color: rgb(248, 244, 227);
+	color: #000;
+}
+
+.no, .yes
+{
+	height: 15px;
+}
+
+.platinum
+{
+	background-color: rgb(245, 245, 245);
+	color: #000;
+}
+
+.agency
+{
+	background-color: rgb(247, 229, 223);
+	color: #000;
+}
+
+#searchDiv select, #searchDiv #nicknameSearch, #searchDiv #postCodeSearch
+{
+	/*background-color: #000;
+	border: 1px solid #434343;
+	border-radius: 5px;
+	color: #fff;*/
+
+	background-color: #fff;
+    border-radius: 5px;
+    color: #000;
+    /*height: 2em;*/
+    font-size: medium;
+}
+#searchDiv select
+{
+	width: 100%;
+}
+#searchDiv #nicknameSearch, #searchDiv #postCodeSearch
+{
+	width: 100%;
+}
+
+#searchDiv
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+    width: 80%;
+    z-index: 100;
+    border-radius: 5px;
+    /*background-color: #b30000;*/
+    background: url(gold.png);
+
+}
+
+.search-inputs {
+	border: solid 1px #d3d3d3;
+	font-size: 1.1em;
+}
+.search-btn {
+	width: 15em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+#searchButton {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    font-family: 'sofia_prolight';
+    border-radius: 5px;
+    margin-bottom: 0;
+}
+#searchButton:hover {
+	background-color: #000;
+	color: #fff;
+}
+.contain-searchDiv {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+}
+.contain-searchDiv div {
+	width: 15em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+
+}
+.contain-searchDiv div h3 {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    margin-bottom: 0;
+}
+
+.signUpButtons
+{
+	margin-top: 10px;
+}
+
+#ctaDiv
+{
+	width: 205px;
+	
+	right: 0;
+	border: 1px solid #434343;
+	border-radius: 5px;
+	padding: 5px; 
+	
+	font-size: 12px;
+}
+
+#registerFormTable
+{
+	margin: auto;
+}
+#registerFormTable .info
+{
+	padding-left: 30px;
+}
+#registerFormTable .label
+{
+	padding-left: 80px;
+}
+
+.searchResultTable
+{
+	display: flex;
+    flex-direction: column;
+    color: #d3d3d3;
+	border-collapse: collapse;
+	margin-top: 10px;
+
+}
+.searchResultTable div
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     padding-left: 10px; 
+}
+.searchResultTable .info
+{
+	display: flex;
+	align-items: flex-end;
+	color: #737373;
+	overflow: auto;
+}
+.searchResultTable .label
+{
+	padding-left: 40px;
+}
+
+.searchResult, .searchPages
+{
+	width: 590px; 
+	margin: auto; 
+	position: relative;
+	border-top: 1px solid #b30000;
+	padding: 15px; 
+	color: #d3d3d3;
+}
+.searchResult:hover
+{
+	background-color: rgb(35,35,35);
+}
+
+.noLink
+{
+	color: rgb(65, 65, 65);
+}
+
+.divTitle
+{
+	font-size: 18px;
+}
+
+.loginButtons
+{
+	font-size: 12px; 
+	font-weight: 400; 
+	font-family: "euron";
+	cursor: pointer; 
+	color: #fff; 
+	padding: 7px; 
+	margin-top: 25px;
+	background-color: #b30000;
+	border: none; 
+	border-radius: 2px; 
+	width: 110px; 
+}
+
+input[type="button"], input[type="submit"]
+{
+	font-size: 12px; 
+	font-weight: 400; 
+	font-family: "euron";
+	cursor: pointer; 
+	color: #fff; 
+	padding: 7px; 
+	background-color: #b30000;
+	border: none; 
+	border-radius: 2px; 
+	min-width: 110px; 
+}
+
+
+#whiteLoginButton
+{
+	background-color: #fff;
+	color: #000;
+background: rgb(212,166,0); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(212,166,0,1) 5%, rgba(212,166,0,1) 5%, rgba(212,175,55,1) 24%, rgba(212,175,55,1) 24%, rgba(252,249,251,1) 52%, rgba(212,175,55,1) 89%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(5%,rgba(212,166,0,1)), color-stop(5%,rgba(212,166,0,1)), color-stop(24%,rgba(212,175,55,1)), color-stop(24%,rgba(212,175,55,1)), color-stop(52%,rgba(252,249,251,1)), color-stop(89%,rgba(212,175,55,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(212,166,0,1) 5%,rgba(212,166,0,1) 5%,rgba(212,175,55,1) 24%,rgba(212,175,55,1) 24%,rgba(252,249,251,1) 52%,rgba(212,175,55,1) 89%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(212,166,0,1) 5%,rgba(212,166,0,1) 5%,rgba(212,175,55,1) 24%,rgba(212,175,55,1) 24%,rgba(252,249,251,1) 52%,rgba(212,175,55,1) 89%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(212,166,0,1) 5%,rgba(212,166,0,1) 5%,rgba(212,175,55,1) 24%,rgba(212,175,55,1) 24%,rgba(252,249,251,1) 52%,rgba(212,175,55,1) 89%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(212,166,0,1) 5%,rgba(212,166,0,1) 5%,rgba(212,175,55,1) 24%,rgba(212,175,55,1) 24%,rgba(252,249,251,1) 52%,rgba(212,175,55,1) 89%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4a600', endColorstr='#d4af37',GradientType=0 ); /* IE6-9 */
+
+
+}
+
+#topMenu
+{
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    font-size: 14px;
+    color: #000;
+    position: relative;
+    z-index: 2000;
+    margin-top: 4px;
+    background-color: #333;
+/*    background-image: url(logo.png);
+    background-repeat: no-repeat;*/
+
+}
+
+#menu, #menu ul 
+{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    line-height: 21px;
+    text-align: center;
+    color: #a9a9a9;
+}
+ 
+#menu li
+{ 
+    /*float : left; */
+	line-height: 50px; 
+	min-height: 41px; 
+	width: 100px; 
+	text-align: center;
+    cursor: pointer;
+    /*background-color: #000;*/
+    text-transform: uppercase;
+    font-size: 8pt;
+}
+#menu li:hover {
+	color: #ffffff;
+	background-color: #b30000;
+}
+ 
+#menu li ul
+{ 
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100px;
+    left: -999em;
+    background-color: #333;
+}
+ 
+ 
+#menu li ul li 
+{
+	border-top: 1px solid #000000;
+	width: 100%;
+}
+ 
+#menu li ul ul 
+{
+    margin: -22px 0 0 144px ;
+}
+
+#menu li ul li:hover 
+{
+    background: rgb(45, 45, 45); 
+    color: #ffffff;
+}
+
+#menu li:hover ul ul, #menu li.sfhover ul ul
+{
+	left: -999em;
+}
+ 
+#menu li:hover ul, #menu li li:hover ul, #menu li.sfhover ul, #menu li li.sfhover ul
+{
+	left: auto;
+	min-height: 0;
+}
+
+.tcList li
+{
+	list-style-type: dash;
+}
+
+.clear {
+	clear: both;
+}
+
+/* The top content that has the escort login & register button */
+#topBannerContent
+{
+	display: none;
+/*	margin: 0 auto; 
+	color: #fff; 
+	position: relative; 
+	padding: 0; 
+	height: 90px; 
+	text-align: right;
+	z-index: 1000;*/
+/*	background-image: url('logo.png');
+	background-repeat: no-repeat;
+	background-position: 0;*/
+}
+
+@keyframes titleAppear
+{
+	from 
+	{
+		background-color: transparent;
+		color: rgba(255, 255, 255, 0);
+	}
+	to 
+	{
+		background-color: rgba(0, 0, 0, 0.5);
+		color: rgba(255, 255, 255, 1);
+	}
+}
+@-webkit-keyframes titleAppear
+{
+	from 
+	{
+		background-color: transparent;
+		color: rgba(255, 255, 255, 0);
+	}
+	to 
+	{
+		background-color: rgba(0, 0, 0, 0.5);
+		color: rgba(255, 255, 255, 1);
+	}
+}
+
+#bodyContent
+{
+	background-color: #333;
+	height: auto;
+	padding: 20px;
+	position: relative;
+	
+}
+
+
+
+.main-container {
+    margin: auto;
+/*    width: 1200px;*/
+    display: flex;
+    justify-content: space-around;
+}
+.left-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 4;
+    justify-content: flex-start;
+    padding: 1.5em;
+}
+.right-container {
+    display: flex;
+    max-width: 20em;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+}
+
+.pagesF {      
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 1em; 
+}
+
+
+.social-icons {margin: auto;  position: relative; top: -30px;  width: 940px;}
+#bottomBar a { margin-right: 40px; margin-bottom: 10px;}
+#bottomBar a:last-child {margin: 0}
+.searchResultTable tr td {font-size: 14px}
+
+
+
+.contact-form {width: 100%; text-align: center;}
+.contact-form .full-form  {width: 100%; display: inline-block; text-align: left; margin-bottom: 15px;}
+.contact-form .your-name, .contact-form .email-address {width: 100%}
+.contact-form .message { display: inline-block; width: 100%; vertical-align: top; text-align: left; margin-bottom: 15px;}
+.message #message {width: 96% !important;}
+.your-name #name {width: 96% !important;}
+.email-address #email {width: 96% !important;}
+
+
+.fb_iframe_widget {display: none !important;}
+
+::-webkit-scrollbar {
+    width: 10px;
+   height: 10px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+
+#main-nav {display: none;}
+
+
+.left-images {display: inline-block; vertical-align: top; width: 37%; margin-right: 20px}
+.right-text { display: inline-block; vertical-align: top; width: 58%; position: relative;}
+.right-text img {width: auto !important; max-width: 100%;}
+.profile-heading {width: 100%;}
+.profile-heading p:first-child {width: 25%; display: inline-block; vertical-align: top;}
+.profile-heading p:last-child {display: inline-block; vertical-align: top;}
+#workTable {width: 100%; padding-bottom: 120px;}
+#workTable .left-work {display: inline-block; vertical-align: top; margin-right: 100px;}
+#workTable .left-work p, #workTable {font-size: 12px;}
+#workTable .left-work p span { color: #808080; width: 30px; display: inline-block;}
+#workTable .right-work {display: inline-block; vertical-align: top;}
+#workTable .right-work p {font-size: 12px;}
+.about-me {font-size: 12px}
+.profile-contact {bottom: 0; width: 100%; color: #333;}
+
+
+
+
+/*-- Media Screen Style Sheet  -- */
+
+@media all and (max-width: 1200px) and (min-width: 769px) {}
+
+@media (max-width: 1024px) {
+	
+	}
+
+/*
+------------------------------------------------------------------------------------------------------------
+								TABLET VIEW - 768px to 1002px
+------------------------------------------------------------------------------------------------------------
+
+*/
+
+@media (min-width: 768px) and (max-width:1002px) {
+
+
+body { max-width: 100%}
+#border {padding: 20px 10px  ; width: 96%}
+
+#topMenu {display: none;}
+#wws {margin-top: 20px; background-repeat: no-repeat;}
+
+.main-container {width: 100%; margin: 0 auto;}
+.left-container {width: 66%; }
+.right-container {width: 31%;}
+.featuredEscort {height: auto;}
+
+.social-icons {width: 100%}
+div#featuredImages.clearfix > div {clear: both;}
+#bottomBar a { margin-left: 40px; margin-right: 0;}
+
+#popupWindow {width: 80%;}
+#popupWindowTopBar {width: 94%;}
+#popupWindowTitle {font-size: 14px;}
+#closePopupWindow {right: 10px;}
+
+table#loginTable tbody tr td input[type="submit"] {width: 100px !important; min-width: 100px}
+#stuffInPopup, #waitingForPayment {font-size: 14px;}
+
+
+.searchResult, .searchPages {width: 100%; padding: 15px 3px;}
+.noImageOnSearch {float: left; height: 120px; width: 120px; margin: 0 20px 10px 0;}
+.searchResult div {font-size: 14px;}
+.searchResultTable tr td { font-size: 12px; padding-right: 5px !important;}
+.searchResultTable .info {text-align: left;}
+
+
+.advertise-cont {overflow-x: scroll;}
+
+.resp-navigation {margin: 20px 0 0 0;}
+
+
+#escortProfilePage {}
+.left-images {text-align: center;}
+.left-images > div {float: none !important; display: inline-block; vertical-align: block; }
+.left-images  div:last-child {margin-right: 0 !important;}
+.left-images .noImageOnProfile {width: 100% !important;}
+#profileInfoTable {font-size: 12px;}
+.profile-heading p:first-child {width: 23%;}
+#profileInfoTable .right {padding-left: 5px;}
+
+}
+/*
+------------------------------------------------------------------------------------------------------------
+								TABLET VIEW
+------------------------------------------------------------------------------------------------------------
+*/
+
+
+@media (max-width: 767px) {
+
+body { max-width: 100%}
+#border {padding: 20px 10px  ; width: 96%}
+
+#topMenu {display: none;}
+#wws {height: 160px; margin-top: 20px; background-repeat: no-repeat;}
+
+.main-container {width: 100%; margin: 0 auto;}
+.left-container {width: 100%; display: block; clear:both}
+.right-container {width: 100%; display: block; clear:both;}
+
+#featuredEscorts {margin: 10px 0;}
+#featuredEscorts table tr td { font-size: 30px; text-align: center;}
+#featuredEscorts table tr td:last-child {display: none;}
+#featuredImages {float: none;}
+.pagesF {      
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 1em; 
+}
+
+.featuredEscort { display: inline-block;  height: auto;  margin-bottom: 16px;  margin-right: 10px;  overflow: hidden;  text-align: center;  vertical-align: top;  width: 22%; float: none;}
+.featuredEscortImage { width: 98%; background-size: contain;}
+
+.right-container {margin: 0;}
+#searchDiv {width: 40%; height: auto; display: inline-block; vertical-align: top;}
+#searchDiv table {width: 100%;}
+#searchDiv td {  padding: 5px 0;}
+#ctaDiv { width: 51%; height: auto; display: inline-block; vertical-align: top; padding: 10px 5px; margin-left: 20px}
+#SEOText {width: 100%;}
+.social-icons {width: 100%}
+
+#bottomBar { }
+#bottomBar a {  display: block;   margin-left: 100px;}
+
+div#featuredImages.clearfix > div {clear: both;}
+
+#popupWindow {width: 80%;}
+#popupWindowTopBar {width: 94%;}
+#popupWindowTitle {font-size: 14px;}
+#closePopupWindow {right: 10px;}
+#popupWindowContent {width: 100%;}
+#loginTable .textFields {width: 150px;}
+table#loginTable tbody tr td input[type="submit"] {width: 100px !important; min-width: 100px}
+#stuffInPopup, #waitingForPayment {font-size: 16px;}
+
+
+.searchResult, .searchPages {width: 100%; padding: 15px 3px;}
+.noImageOnSearch {float: left; height: 120px; width: 120px; margin: 0 20px 10px 0;}
+.searchResult div {font-size: 14px;}
+.searchResultTable tr td { font-size: 14px; padding-right: 5px !important;}
+.searchResultTable .info {text-align: left;}	
+
+.resp-navigation {margin: 20px 0 0 0;}
+
+
+#escortProfilePage {}
+.left-images {text-align: center;}
+.left-images > div {float: none !important; display: inline-block; vertical-align: block; }
+.left-images  div:last-child {margin-right: 0 !important;}
+.left-images .noImageOnProfile {width: 100% !important;}
+#profileInfoTable {font-size: 12px;}
+.profile-heading p:first-child {width: 23%;}
+#profileInfoTable .right {padding-left: 5px;}
+
+}
+
+/*
+------------------------------------------------------------------------------------------------------------
+								MOBILE LANDSCAPE VIEW
+------------------------------------------------------------------------------------------------------------
+*/
+
+
+@media (max-width: 640px) {
+span#featuredPage1, span#featuredPage2, span#featuredPage3 , span#featuredPage4 , span#featuredPage5 {font-size:24px;}
+.searchPages span , .searchPages a{font-size:24px;font-weight:normal;}
+body { max-width: 100%}
+#border {padding: 20px 10px  ; width: 96%}
+
+#topMenu {display: none;}
+#wws {height: 160px; margin-top: 20px; background-repeat: no-repeat;}
+
+.main-container {width: 100%; margin: 0 auto;}
+.left-container {width: 100%; display: block; clear:both}
+.right-container {width: 100%; display: block; clear:both;}
+
+#featuredEscorts {margin: 10px 0;}
+#featuredEscorts table tr td { font-size: 30px; text-align: center;}
+#featuredEscorts table tr td:last-child {display: none;}
+#featuredImages {float: none;}
+.pagesF {  width: 100%; }
+
+.featuredEscort { display: inline-block;  height: auto;  margin-bottom: 16px;  margin-right: 10px;  overflow: hidden;  text-align: center;  vertical-align: top;  width: 22%; float: none;}
+.featuredEscortImage { width: 98%; background-size: contain;}
+
+.right-container {margin: 0;}
+#searchDiv {width: 40%; height: auto; display: inline-block; vertical-align: top;}
+#searchDiv table {width: 100%;}
+#searchDiv td {  padding: 5px 0;}
+#ctaDiv { width: 49%; height: auto; display: inline-block; vertical-align: top; padding: 10px 5px; margin-left: 20px}
+#SEOText {width: 100%;}
+.social-icons {width: 100%}
+
+#bottomBar { }
+#bottomBar a {  display: block;   margin-left: 100px;}
+
+div#featuredImages.clearfix > div {clear: both;}
+
+
+#popupWindow {width: 80%;}
+#popupWindowTopBar {width: 94%;}
+#popupWindowTitle {font-size: 14px;}
+#closePopupWindow {right: 10px;}
+#popupWindowContent {width: 100%;}
+#loginTable .textFields {width: 150px;}
+table#loginTable tbody tr td input[type="submit"] {width: 100px !important; min-width: 100px}
+#stuffInPopup, #waitingForPayment {font-size: 16px;}
+
+
+.searchResult, .searchPages {width: 100%; padding: 15px 3px;}
+.noImageOnSearch {float: left; height: 120px; width: 120px; margin: 0 20px 10px 0;}
+.searchResult div {font-size: 14px;}
+.searchResultTable tr td { font-size: 14px; padding-right: 5px !important;}
+.searchResultTable .info {text-align: left;}
+
+
+.advertise-cont {overflow-x: scroll;}
+
+.resp-navigation {margin: 20px 0 0 0;}
+
+
+#escortProfilePage {}
+.left-images {text-align: center;}
+.left-images > div {float: none !important; display: inline-block; vertical-align: block; }
+.left-images  div:last-child {margin-right: 0 !important;}
+.left-images .noImageOnProfile {width: 100% !important;}
+#profileInfoTable {font-size: 12px;}
+.profile-heading p:first-child {width: 23%;}
+#profileInfoTable .right {padding-left: 5px;}
+
+}
+
+/*
+------------------------------------------------------------------------------------------------------------
+								MOBILE PORTRAIT VIEW
+------------------------------------------------------------------------------------------------------------
+*/
+
+@media (max-width: 480px) {
+
+
+body { max-width: 100%}
+#border {padding: 20px 10px  ; width: 93%}
+#topBannerContent {  }
+.loginButtons { float: right; clear: both; display: block; margin-top: 10px;}
+#topMenu {display: none;}
+#wws {height: 160px; margin-top: 20px; background-repeat: no-repeat;}
+
+.main-container {width: 100%; margin: 0 auto;}
+.left-container {width: 100%; display: block; clear:both}
+.right-container {width: 100%; display: block; clear:both;}
+
+#featuredEscorts {margin: 10px 0;}
+#featuredEscorts table tr td { font-size: 30px; text-align: center;}
+#featuredEscorts table tr td:last-child {display: none;}
+#featuredImages {float: none;}
+.pagesF {  width: 100%; }
+
+.featuredEscort { display: inline-block;  height: auto;  margin-bottom: 16px;  margin-right: 10px;  overflow: hidden;  text-align: center;  vertical-align: top;  width: 30%; float: none;}
+
+.featuredEscortImage { width: 98%; background-size: contain;}
+
+.right-container {margin: 0;}
+#searchDiv {width: 96%; height: auto;}
+#searchDiv table {width: 100%;}
+#searchDiv td {  padding: 5px 0;}
+#ctaDiv { width: 96%; padding: 10px 5px; margin: 0;}
+#SEOText {width: 100%;}
+.social-icons {width: 100%}
+
+#bottomBar {  background-position: 0 25px;  background-size: 25% auto;}
+#bottomBar a {  display: block;   margin-left: 100px;}
+
+div#featuredImages.clearfix > div {clear: both;}
+
+#popupWindow {width: 98%;}
+#popupWindowTopBar {width: 94%;}
+#popupWindowTitle {font-size: 14px;}
+#closePopupWindow {right: 10px;}
+#popupWindowContent {width: 100%;}
+#loginTable .textFields {width: 150px;}
+table#loginTable tbody tr td input[type="submit"] {width: 100px !important; min-width: 100px}
+#stuffInPopup, #waitingForPayment {font-size: 14px;}
+
+
+.searchResult, .searchPages {width: 100%; padding: 15px 3px;}
+.noImageOnSearch {float: left; height: 120px; width: 120px; margin: 0 20px 10px 0;}
+.searchResult div {font-size: 14px;}
+.searchResultTable tr td { font-size: 11px; padding-right: 5px !important;}
+.searchResultTable .info {text-align: left;}
+
+.contact-form .full-form  {width: 100%;}
+.contact-form .your-name { margin-bottom: 15px;}
+.contact-form .message { width: 100%; }
+
+.advertise-cont {overflow-x: scroll;}
+
+.resp-navigation {margin: 20px 0 0 0;}
+
+
+
+#escortProfilePage {}
+.left-images {text-align: center;}
+.left-images > div { width: 78px !important; float: none !important; display: inline-block; vertical-align: block; }
+.left-images  div:last-child {margin-right: 0 !important;}
+.left-images .noImageOnProfile {width: 100% !important;}
+.left-images {display: block; margin: 0 0 20px 0; width: 98%; overflow :hidden;}
+.right-text {display: inline-block; width: 98%}
+#profileInfoTable {font-size: 12px;}
+.profile-heading p:first-child {width: 23%;}
+#profileInfoTable .right {padding-left: 5px;}
+
+
+ }
+
+/*
+------------------------------------------------------------------------------------------------------------
+								MOBILE VIEW - MAX 360px
+------------------------------------------------------------------------------------------------------------
+*/
+
+@media (max-width: 360px) {
+
+	
+body { max-width: 100%}
+#border {padding: 20px 10px  ; width: 93%}
+#topBannerContent { background-size: 55% auto; }
+.loginButtons { float: right; clear: both; display: block; margin-top: 10px;}
+#topMenu {display: none;}
+#wws {height: 160px; margin-top: 20px; background-repeat: no-repeat;}
+
+.main-container {width: 100%; margin: 0 auto;}
+.left-container {width: 100%; display: block; clear:both}
+.right-container {width: 100%; display: block; clear:both;}
+
+#featuredEscorts {margin: 10px 0;}
+#featuredEscorts table tr td { font-size: 30px; text-align: center;}
+#featuredEscorts table tr td:last-child {display: none;}
+#featuredImages {float: none;}
+.pagesF {  width: 100%; }
+
+.featuredEscort { display: inline-block;  height: auto;  margin-bottom: 16px;  margin-right: 10px;  overflow: hidden;  text-align: center;  vertical-align: top;  width: 45%; float: none;}
+.featuredEscortImage { width: 98%; background-size: contain;}
+
+
+.right-container {margin: 0;}
+#searchDiv {width: 96%; height: auto;}
+#searchDiv table {width: 100%;}
+#searchDiv td {  padding: 5px 0;}
+#ctaDiv { width: 96%; padding: 10px 5px; margin: 0;}
+#SEOText {width: 100%;}
+.social-icons {width: 100%}
+
+#bottomBar {  background-position: 0 25px;  background-size: 30% auto;}
+#bottomBar a {  display: block;   margin-left: 100px;}
+
+#popupWindow {width: 98%;}
+#popupWindowTopBar {width: 94%;}
+#popupWindowTitle {font-size: 14px;}
+#closePopupWindow {right: 10px;}
+#popupWindowContent {width: 100%;}
+#loginTable .textFields {width: 150px;}
+table#loginTable tbody tr td input[type="submit"] {width: 100px !important; min-width: 100px}
+#stuffInPopup, #waitingForPayment {font-size: 14px;}
+
+
+.searchResult, .searchPages {width: 100%; padding: 15px 3px;}
+.noImageOnSearch {float: none; height: 120px; width: 120px; margin: 0  0 10px;}
+.searchResult div {font-size: 14px;}
+.searchResultTable tr td { font-size: 11px; padding-right: 5px !important;}
+.searchResultTable .info {text-align: left;}
+
+.contact-form .full-form  {width: 100%;}
+.contact-form .your-name { margin-bottom: 15px;}
+.contact-form .message { width: 100%; }
+
+
+.advertise-cont {overflow-x: scroll;}
+
+.resp-navigation {margin: 20px 0 0 0;}
+
+
+#escortProfilePage {}
+.left-images {text-align: center;}
+.left-images > div { width: 78px !important; float: none !important; display: inline-block; vertical-align: block; }
+.left-images  div:last-child {margin-right: 0 !important;}
+.left-images .noImageOnProfile {width: 100% !important;}
+.left-images {display: block; margin: 0 0 20px 0; width: 98%; overflow :hidden;}
+.right-text {display: inline-block; width: 98%}
+#profileInfoTable {font-size: 11px;}
+.profile-heading p:first-child {width: 23%;}
+#profileInfoTable .right {padding-left: 5px;}
+
+
+}
+
+/*
+------------------------------------------------------------------------------------------------------------
+								MOBILE VIEW - MAX 320px
+------------------------------------------------------------------------------------------------------------
+*/
+  @media (max-width: 320px) { 
+
+body { max-width: 100%}
+#border {padding: 20px 10px  ; width: 93%}
+#topBannerContent { background-size: 55% auto; }
+.loginButtons { float: right; clear: both; display: block; margin-top: 10px;}
+#topMenu {display: none;}
+#wws {height: 160px; margin-top: 20px; background-repeat: no-repeat;}
+
+.main-container {width: 100%; margin: 0 auto;}
+.left-container {width: 100%; display: block; clear:both}
+.right-container {width: 100%; display: block; clear:both;}
+
+#featuredEscorts {margin: 10px 0;}
+#featuredEscorts table tr td { font-size: 30px; text-align: center;}
+#featuredEscorts table tr td:last-child {display: none;}
+#featuredImages {float: none;}
+.pagesF {  width: 100%; }
+
+.featuredEscort { display: inline-block;  height: auto;  margin-bottom: 16px;  margin-right: 10px;  overflow: hidden;  text-align: center;  vertical-align: top;  width: 45%;}
+.featuredEscortImage { width: 98%; background-size: contain;}
+
+.right-container {margin: 0;}
+#searchDiv {width: 96%; height: auto;}
+#searchDiv table {width: 100%;}
+#searchDiv td {  padding: 5px 0;}
+#ctaDiv { width: 96%; padding: 10px 5px; margin: 0;}
+#SEOText {width: 100%;}
+.social-icons {width: 100%}
+
+#bottomBar {  background-position: 0 25px;  background-size: 30% auto; background-size: contain;}
+#bottomBar a {  display: block;   margin-left: 100px;}
+
+#popupWindow {width: 98%;}
+#popupWindowTopBar {width: 94%;}
+#popupWindowTitle {font-size: 14px;}
+#closePopupWindow {right: 10px;}
+#popupWindowContent {width: 100%;}
+#loginTable .textFields {width: 150px;}
+table#loginTable tbody tr td input[type="submit"] {width: 100px !important; min-width: 100px}
+#stuffInPopup, #waitingForPayment {font-size: 14px;}
+
+.searchResult, .searchPages {width: 100%; padding: 15px 3px;}
+.noImageOnSearch {float: none; height: 120px; width: 120px; margin: 0  0 10px;}
+.searchResult div {font-size: 14px;}
+.searchResultTable tr td { font-size: 11px; padding-right: 5px !important;}
+.searchResultTable .info {text-align: left;}
+
+.contact-form .full-form  {width: 100%;}
+.contact-form .your-name { margin-bottom: 15px;}
+.contact-form .message { width: 100%; }
+
+.advertise-cont {overflow-x: scroll;}
+
+.resp-navigation {margin: 20px 0 0 0;}
+
+#escortProfilePage {}
+.left-images {text-align: center;}
+.left-images > div { width: 78px !important; float: none !important; display: inline-block; vertical-align: block; }
+.left-images  div:last-child {margin-right: 0 !important;}
+.left-images .noImageOnProfile {width: 100% !important;}
+.left-images {display: block; margin: 0 0 20px 0; width: 98%; overflow :hidden;}
+.right-text {display: inline-block; width: 98%}
+#profileInfoTable {font-size: 11px;}
+.profile-heading p:first-child {width: 23%;}
+#profileInfoTable .right {padding-left: 5px;}
+
+
+}
+
+
+.bx-viewport {
+	margin-top: 1em;
+}
+
+.right-container #searchDiv {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 1em;
+    width: 80%;
+    z-index: 100;
+    border-radius: 5px;
+    background-color: #b30000;
+    position: relative;
+    top: 1em;
+}
+
+.bxslider {
+	position: relative;
+	top: -1em;
+}
+
+.nav-logo img {
+	height: 80px;
+}
+
+     

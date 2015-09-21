@@ -1,0 +1,1 @@
+<?php header('Location: http://www.escortcentral.com.au/?error=404'); ?>
